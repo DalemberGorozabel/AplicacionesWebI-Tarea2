@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/primer-plano-mano-masculina-llenando-formulario-solicitud_1262-12275.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+div{
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: px;
+    color:  #BDC3C7 ;
+    background: transparent;
+    border: 5px solid rgb(160, 241, 241)  ;
+    border-radius: 30px;
+    color:black;
+    cursor: pointer;
+    transition-duration: 0.12s ;
+    text-decoration: none;
+    width: 550px;
+    
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <SCRIPT LANGUAJE="JavaScript">
+        alert("Bienvenido, por favor llenar el siguiente Formulario");
+        </SCRIPT>
+    <head>
+        <Title>Formulario</Title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="estilo.css">
+        <form action="" method="get">
+            <div>
+                <h1><center>Formulario</center></h1>
+                <p>
+                    Nombre:&nbsp;&nbsp; <input type="text" name="name_control" autofocus required />
+                    &nbsp;Apellido:&nbsp;<input type="text" name="Apellido" autofocus required />
+                </p>
+                <p>
+                    &nbsp; &nbsp; E-mail: <input type="email" name="email_comtrol" autofocus required />
+                    &nbsp;Teléfono:&nbsp;<input type="tel" name="tel_control" required />
+                </p>
+                <p>
+                    Dirección:<input type="text" name="dire" required />
+                    &nbsp;Ciudad:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="país_ciu" required />
+                </p>
+                <p><center>
+                    Fecha de nacimiento:<input type="date" name="Fecha" />
+                </p></center>
+                <p><center>Sexo:
+                    <input type="radio" name="hm" value="h" required> Hombre
+                    <input type="radio" name="hm" value="m"> Mujer
+                  </p></center>
+                  
+                  <p><center>Edad:
+                    <select name="menu">
+                        <option selected>...</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                      </select>
+                    <input type="radio" name="edad" value="adulto" required> +18
+                  </p></center>
+                  <center>
+
+                  Subir Foto: <input type="file" name="archivo" value="image/*">
+                  </center>
+                  <br>
+                  <body><center>
+                    <input type="submit" value="Enviar" onclick="abrir();" /> <input type="reset" value="Borrar">
+                     
+                    <script type="text/javascript">
+                    function abrir()
+                    {
+                     var w=window.open("","","height=200,width=400,menubar=no,toolbar=no");
+                     w.document.open();
+                     w.document.write("<h1>Sus datos han sido enviados de maravilla!</h1>");
+                     w.document.close();
+                    }
+                    </script>
+                    </body></center>
+                
+            </div>                  
+        </form>
+    </body>
+</html>
